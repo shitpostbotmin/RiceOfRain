@@ -270,3 +270,39 @@ mods:
       minor: 3
       patch: 1
     enabled: true
+  - name: ThinkInvis-TILER2
+    version:
+      major: 7
+      minor: 3
+      patch: 2
+    enabled: true
+  - name: ThinkInvis-ClassicItems
+    version:
+      major: 7
+      minor: 1
+      patch: 0
+    enabled: true
+  - name: RumblingJOSEPH-VoidItemAPI
+    version:
+      major: 1
+      minor: 1
+      patch: 0
+    enabled: true
+  - name: Zenithrium-VanillaVoid
+    version:
+      major: 1
+      minor: 4
+      patch: 2
+    enabled: true
+  - name: Moffein-MobileTurretBuff
+    version:
+      major: 1
+      minor: 1
+      patch: 13
+    enabled: true
+  - name: AceOfShades-QuickRestart
+    version:
+      major: 1
+      minor: 4
+      patch: 2
+    enabled: true
