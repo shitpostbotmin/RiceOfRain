@@ -1,0 +1,272 @@
+profileName: RiceOfRain
+mods:
+  - name: bbepis-BepInExPack
+    version:
+      major: 5
+      minor: 4
+      patch: 2103
+    enabled: true
+  - name: Bubbet-SkipIntro
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: XoXFaby-BetterUI
+    version:
+      major: 2
+      minor: 7
+      patch: 6
+    enabled: true
+  - name: RiskofThunder-HookGenPatcher
+    version:
+      major: 1
+      minor: 2
+      patch: 3
+    enabled: true
+  - name: tristanmcpherson-R2API
+    version:
+      major: 5
+      minor: 0
+      patch: 3
+    enabled: true
+  - name: EnforcerGang-Enforcer
+    version:
+      major: 3
+      minor: 7
+      patch: 4
+    enabled: true
+  - name: SSM24-FadeEmptyChests
+    version:
+      major: 1
+      minor: 1
+      patch: 0
+    enabled: true
+  - name: niwith-DropinMultiplayer
+    version:
+      major: 2
+      minor: 0
+      patch: 1
+    enabled: true
+  - name: NotTsunami-ShowDeathCause
+    version:
+      major: 3
+      minor: 0
+      patch: 1
+    enabled: true
+  - name: XoXFaby-BetterAPI
+    version:
+      major: 4
+      minor: 0
+      patch: 3
+    enabled: true
+  - name: Evaisa-MoreShrines
+    version:
+      major: 1
+      minor: 5
+      patch: 1
+    enabled: true
+  - name: Moffein-FixDamageTrailNullref
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: Moffein-Ancient_Wisp
+    version:
+      major: 1
+      minor: 6
+      patch: 2
+    enabled: true
+  - name: Moffein-Clay_Men
+    version:
+      major: 1
+      minor: 5
+      patch: 2
+    enabled: true
+  - name: Moffein-Archaic_Wisp
+    version:
+      major: 1
+      minor: 1
+      patch: 2
+    enabled: true
+  - name: TeamMoonstorm-MoonstormSharedUtils
+    version:
+      major: 1
+      minor: 2
+      patch: 0
+    enabled: true
+  - name: OakPrime-KnurlBuff
+    version:
+      major: 1
+      minor: 1
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Core
+    version:
+      major: 5
+      minor: 0
+      patch: 3
+    enabled: true
+  - name: RiskofThunder-R2API_RecalculateStats
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Director
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_DamageType
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Colors
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_ArtifactCode
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_ContentManagement
+    version:
+      major: 1
+      minor: 0
+      patch: 1
+    enabled: true
+  - name: RiskofThunder-R2API_Elites
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Dot
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Difficulty
+    version:
+      major: 1
+      minor: 0
+      patch: 2
+    enabled: true
+  - name: RiskofThunder-R2API_Networking
+    version:
+      major: 1
+      minor: 0
+      patch: 2
+    enabled: true
+  - name: RiskofThunder-R2API_Prefab
+    version:
+      major: 1
+      minor: 0
+      patch: 1
+    enabled: true
+  - name: TeamMoonstorm-Starstorm2
+    version:
+      major: 0
+      minor: 3
+      patch: 50
+    enabled: true
+  - name: RiskofThunder-R2API_Unlockable
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_TempVisualEffect
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Sound
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_SceneAsset
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Orb
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_LobbyConfig
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Loadout
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Language
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Items
+    version:
+      major: 1
+      minor: 0
+      patch: 1
+    enabled: true
+  - name: RiskofThunder-R2API_Deployable
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_CommandHelper
+    version:
+      major: 1
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: Fr4nsson-MultiplayerPause
+    version:
+      major: 1
+      minor: 0
+      patch: 2
+    enabled: true
+  - name: TheTimesweeper-SillyItems
+    version:
+      major: 1
+      minor: 2
+      patch: 2
+    enabled: true
+  - name: Rune580-Risk_Of_Options
+    version:
+      major: 2
+      minor: 5
+      patch: 3
+    enabled: true
+  - name: VarnaScelestus-Enhanced_OSP
+    version:
+      major: 1
+      minor: 3
+      patch: 1
+    enabled: true
