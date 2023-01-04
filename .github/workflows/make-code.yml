@@ -28,7 +28,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Upload pack to thunderstore
         run: |
-          echo "# PACK CODE:\n# $(curl 'https://thunderstore.io/api/experimental/legacyprofile/create/' \
+          echo "# PACK CODE: $(curl 'https://thunderstore.io/api/experimental/legacyprofile/create/' \
             -s \
             -H 'authority: thunderstore.io' \
             -H 'accept: application/json, text/plain, */*' \
