@@ -26,6 +26,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Upload pack to thunderstore
         run: |
+          zip -r modpack.r2z .
+          echo "#r2modman
+          $(base64 modpack.r2z)" >> request.bin
           echo "# PACK CODE: $(curl 'https://thunderstore.io/api/experimental/legacyprofile/create/' \
             -s \
             -H 'authority: thunderstore.io' \
@@ -36,6 +39,6 @@ jobs:
             -H 'sec-fetch-mode: cors' \
             -H 'sec-fetch-dest: empty' \
             -H 'accept-language: en-US' \
-            --data-binary $'#r2modman\n${zip -r modpack.zip && base64 modpack.zip}' \
+            --data-binary @request.bin \
             --compressed | sed -E 's/(\{"key":")(.*)("\})/\2/g')" >> "$GITHUB_STEP_SUMMARY"
 
