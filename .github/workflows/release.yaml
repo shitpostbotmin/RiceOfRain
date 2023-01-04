@@ -1,0 +1,40 @@
+name: test-and-publish
+on:
+    - push
+
+env:
+  zip_file: riceofrain.r2z
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - run: sudo apt-get install zip jq
+            - run: zip -r $zip_file *
+            - run: echo $'#r2modman\n'$(base64 $zip_file -w 0) > data.txt
+            - run: |
+                echo "key=$(curl 'https://thunderstore.io/api/experimental/legacyprofile/create/' \
+                  -H 'authority: thunderstore.io' \
+                  -H 'accept: application/json, text/plain, */*' \
+                  -H 'content-type: application/octet-stream' \
+                  -H 'sec-fetch-site: cross-site' \
+                  -H 'sec-fetch-mode: cors' \
+                  -H 'sec-fetch-dest: empty' \
+                  -H 'accept-language: en-US' \
+                  --data-binary @data.txt \
+                  --compressed | jq .key -r)" >> $GITHUB_ENV
+            - uses: actions/upload-artifact@v2
+              with:
+                  name: build
+                  path: ${{ env.zip_file }}
+              env:
+                  CI: true
+            - uses: marvinpinto/action-automatic-releases@v1.2.1
+              if: github.ref == 'refs/heads/master'
+              with:
+                  repo_token: ${{ secrets.GITHUB_TOKEN }}
+                  prerelease: false
+                  files: ${{ env.zip_file }}
+                  automatic_release_tag: latest
+                  title: "code: ${{ env.key }}"
