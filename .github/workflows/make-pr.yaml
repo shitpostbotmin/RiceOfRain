@@ -35,16 +35,27 @@ jobs:
       - name: upload .r2z as github artifact
         uses: actions/upload-artifact@v2
         with:
-            name: build
-            path: ${{ env.zip_file }}
+          name: build
+          path: ${{ env.zip_file }}
         env:
-            CI: true
+          CI: true
 
       - run: rm $zip_file
 
+      - name: commit & push branch
+        run: |
+          git config user.name $GITHUB_ACTOR
+          git config user.email $GITHUB_ACTOR@users.noreply.github.com
+          git checkout -b ${{ github.event.inputs.profile-code }}
+          git commit -am ${{ github.event.inputs.commit-message }}
+          git push --set-upstream origin ${{ github.event.inputs.profile-code }}
+
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
+        uses: repo-sync/pull-request@v2
         with:
-          commit-message: ${{ github.event.inputs.commit-message }}
-          branch-suffix: short-commit-hash
-          delete-branch: true
+          source_branch: ${{ github.event.inputs.profile-code }}
+          pr_title: "Pulling ${{ github.ref }} into master" # Title of pull request
+          pr_body: |                                        # Full markdown support, requires pr_title to be set
+            :crown: *An automated PR*
+            
+            _Created by [repo-sync/pull-request](https://github.com/repo-sync/pull-request)_
