@@ -15,7 +15,7 @@ jobs:
               run: sudo apt-get install zip jq
 
             - name: create .r2z file
-              run: zip -r $zip_file *
+              run: cd pack && zip -r ../$zip_file *
 
             - name: upload .r2z to thunderstore
               run: |
