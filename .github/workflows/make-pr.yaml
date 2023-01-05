@@ -22,15 +22,16 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: install dependencies
-        run: sudo apt-get install unzip
+        run: sudo apt-get install unzip p7zip-full
 
       - name: download .r2z
         run: |
           response=$(curl https://thunderstore.io/api/experimental/legacyprofile/get/${{ github.event.inputs.profile-code }}/)
           prefix=#r2modman
-          rm -rf *
+          rm -rf pack/*
           echo "${response#$prefix}" | base64 --decode > $zip_file
-          unzip $zip_file -d .
+          7z rn asdf.txt $(7z l asdf.txt | grep '\\' | awk '{ print $6, gensub(/\\/, "/", "g", $6); }' | paste -s)
+          unzip $zip_file -d pack
 
       - name: upload .r2z as github artifact
         uses: actions/upload-artifact@v2
@@ -46,5 +47,8 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           commit-message: ${{ github.event.inputs.commit-message }}
+          title: ${{ github.event.inputs.commit-message }}
+          body: "automated PR.\n\n**pack code:** `${{ github.event.inputs.profile-code }}`"
+          add-paths: pack/**
           branch-suffix: short-commit-hash
           delete-branch: true
