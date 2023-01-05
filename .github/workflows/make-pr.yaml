@@ -41,7 +41,8 @@ jobs:
         env:
             CI: true
 
-      - run: rm $zip_file
+      - name: setup git
+        run: git config --global core.autocrlf input
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
