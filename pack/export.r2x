@@ -106,7 +106,7 @@ mods:
     version:
       major: 5
       minor: 0
-      patch: 3
+      patch: 4
     enabled: true
   - name: RiskofThunder-R2API_RecalculateStats
     version:
@@ -148,7 +148,7 @@ mods:
     version:
       major: 1
       minor: 0
-      patch: 0
+      patch: 1
     enabled: true
   - name: RiskofThunder-R2API_Dot
     version:
