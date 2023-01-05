@@ -1,0 +1,50 @@
+name: make-pr
+
+on:
+  workflow_dispatch:
+    inputs:
+      profile-code:
+        type: string
+        description: profile code exported from r2modman
+        required: true
+      commit-message:
+        type: string
+        description: description of your change
+        required: true
+
+env:
+  zip_file: riceofrain.r2z
+
+jobs:
+  make-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: install dependencies
+        run: sudo apt-get install unzip
+
+      - name: download .r2z
+        run: |
+          response=$(curl https://thunderstore.io/api/experimental/legacyprofile/get/${{ github.event.inputs.profile-code }}/)
+          prefix=#r2modman
+          rm -rf *
+          echo "${response#$prefix}" | base64 --decode > $zip_file
+          unzip $zip_file -d .
+
+      - name: upload .r2z as github artifact
+        uses: actions/upload-artifact@v2
+        with:
+            name: build
+            path: ${{ env.zip_file }}
+        env:
+            CI: true
+
+      - run: rm $zip_file
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: ${{ github.event.inputs.commit-message }}
+          branch-suffix: short-commit-hash
+          delete-branch: true
