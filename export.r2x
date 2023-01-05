@@ -6,12 +6,6 @@ mods:
       minor: 4
       patch: 2103
     enabled: true
-  - name: Bubbet-SkipIntro
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
   - name: XoXFaby-BetterUI
     version:
       major: 2
