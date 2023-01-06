@@ -306,3 +306,21 @@ mods:
       minor: 4
       patch: 2
     enabled: true
+  - name: viliger-ShrineOfRepair
+    version:
+      major: 1
+      minor: 3
+      patch: 1
+    enabled: true
+  - name: wildbook-TooManyFriends
+    version:
+      major: 1
+      minor: 2
+      patch: 1
+    enabled: true
+  - name: MagnusMagnuson-ItemExchangeNotifier
+    version:
+      major: 1
+      minor: 4
+      patch: 1
+    enabled: true
