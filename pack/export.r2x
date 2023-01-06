@@ -324,3 +324,9 @@ mods:
       minor: 4
       patch: 1
     enabled: true
+  - name: JaceDaDorito-FogboundLagoon
+    version:
+      major: 1
+      minor: 0
+      patch: 8
+    enabled: true
