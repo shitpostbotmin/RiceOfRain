@@ -330,3 +330,9 @@ mods:
       minor: 0
       patch: 8
     enabled: true
+  - name: William758-ContentDisabler
+    version:
+      major: 1
+      minor: 2
+      patch: 1
+    enabled: true
