@@ -48,12 +48,6 @@ mods:
       minor: 0
       patch: 1
     enabled: true
-  - name: NotTsunami-ShowDeathCause
-    version:
-      major: 3
-      minor: 0
-      patch: 1
-    enabled: true
   - name: XoXFaby-BetterAPI
     version:
       major: 4
@@ -318,12 +312,6 @@ mods:
       minor: 2
       patch: 1
     enabled: true
-  - name: MagnusMagnuson-ItemExchangeNotifier
-    version:
-      major: 1
-      minor: 4
-      patch: 1
-    enabled: true
   - name: JaceDaDorito-FogboundLagoon
     version:
       major: 1
@@ -335,4 +323,16 @@ mods:
       major: 1
       minor: 2
       patch: 1
+    enabled: true
+  - name: pseudopulse-ChaoticSkills
+    version:
+      major: 1
+      minor: 1
+      patch: 1
+    enabled: true
+  - name: Wolfo-WolfoQualityOfLife
+    version:
+      major: 2
+      minor: 0
+      patch: 5
     enabled: true
