@@ -330,9 +330,15 @@ mods:
       minor: 1
       patch: 1
     enabled: true
-  - name: Wolfo-WolfoQualityOfLife
+  - name: MagnusMagnuson-ItemExchangeNotifier
     version:
-      major: 2
+      major: 1
+      minor: 4
+      patch: 1
+    enabled: true
+  - name: NotTsunami-ShowDeathCause
+    version:
+      major: 3
       minor: 0
-      patch: 5
+      patch: 1
     enabled: true
