@@ -26,7 +26,7 @@ jobs:
 
       - name: download .r2z
         run: |
-          response=$(curl https://thunderstore.io/api/experimental/legacyprofile/get/${{ github.event.inputs.profile-code }}/)
+          response=$(curl -L https://gcdn.thunderstore.io/live/modpacks/legacyprofile/${{ github.event.inputs.profile-code }})
           prefix=#r2modman
           rm -rf pack/*
           echo "${response#$prefix}" | base64 --decode > $zip_file
