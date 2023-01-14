@@ -70,19 +70,19 @@ mods:
     version:
       major: 1
       minor: 6
-      patch: 2
+      patch: 3
     enabled: true
   - name: Moffein-Clay_Men
     version:
       major: 1
       minor: 5
-      patch: 2
+      patch: 3
     enabled: true
   - name: Moffein-Archaic_Wisp
     version:
       major: 1
       minor: 1
-      patch: 2
+      patch: 3
     enabled: true
   - name: TeamMoonstorm-MoonstormSharedUtils
     version:
@@ -327,8 +327,8 @@ mods:
   - name: pseudopulse-ChaoticSkills
     version:
       major: 1
-      minor: 1
-      patch: 1
+      minor: 3
+      patch: 0
     enabled: true
   - name: MagnusMagnuson-ItemExchangeNotifier
     version:
