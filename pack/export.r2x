@@ -1,10 +1,10 @@
-profileName: RiceOfRain
+profileName: RiceOfRain2
 mods:
-  - name: bbepis-BepInExPack
+  - name: AceOfShades-QuickRestart
     version:
-      major: 5
-      minor: 4
-      patch: 2103
+      major: 1
+      minor: 5
+      patch: 1
     enabled: true
   - name: Bubbet-SkipIntro
     version:
@@ -12,323 +12,11 @@ mods:
       minor: 0
       patch: 0
     enabled: true
-  - name: XoXFaby-BetterUI
-    version:
-      major: 2
-      minor: 7
-      patch: 6
-    enabled: true
-  - name: RiskofThunder-HookGenPatcher
-    version:
-      major: 1
-      minor: 2
-      patch: 3
-    enabled: true
-  - name: tristanmcpherson-R2API
-    version:
-      major: 5
-      minor: 0
-      patch: 3
-    enabled: true
   - name: EnforcerGang-Enforcer
     version:
       major: 3
-      minor: 7
-      patch: 4
-    enabled: true
-  - name: SSM24-FadeEmptyChests
-    version:
-      major: 1
-      minor: 1
-      patch: 0
-    enabled: true
-  - name: niwith-DropinMultiplayer
-    version:
-      major: 2
-      minor: 0
+      minor: 11
       patch: 1
-    enabled: true
-  - name: XoXFaby-BetterAPI
-    version:
-      major: 4
-      minor: 0
-      patch: 3
-    enabled: true
-  - name: Evaisa-MoreShrines
-    version:
-      major: 1
-      minor: 5
-      patch: 1
-    enabled: true
-  - name: Moffein-FixDamageTrailNullref
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: Moffein-Ancient_Wisp
-    version:
-      major: 1
-      minor: 6
-      patch: 3
-    enabled: true
-  - name: Moffein-Clay_Men
-    version:
-      major: 1
-      minor: 5
-      patch: 3
-    enabled: true
-  - name: Moffein-Archaic_Wisp
-    version:
-      major: 1
-      minor: 1
-      patch: 3
-    enabled: true
-  - name: TeamMoonstorm-MoonstormSharedUtils
-    version:
-      major: 1
-      minor: 2
-      patch: 0
-    enabled: true
-  - name: OakPrime-KnurlBuff
-    version:
-      major: 1
-      minor: 1
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_Core
-    version:
-      major: 5
-      minor: 0
-      patch: 4
-    enabled: true
-  - name: RiskofThunder-R2API_RecalculateStats
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_Director
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_DamageType
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_Colors
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_ArtifactCode
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_ContentManagement
-    version:
-      major: 1
-      minor: 0
-      patch: 1
-    enabled: true
-  - name: RiskofThunder-R2API_Elites
-    version:
-      major: 1
-      minor: 0
-      patch: 1
-    enabled: true
-  - name: RiskofThunder-R2API_Dot
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_Difficulty
-    version:
-      major: 1
-      minor: 0
-      patch: 2
-    enabled: true
-  - name: RiskofThunder-R2API_Networking
-    version:
-      major: 1
-      minor: 0
-      patch: 2
-    enabled: true
-  - name: RiskofThunder-R2API_Prefab
-    version:
-      major: 1
-      minor: 0
-      patch: 1
-    enabled: true
-  - name: TeamMoonstorm-Starstorm2
-    version:
-      major: 0
-      minor: 3
-      patch: 50
-    enabled: true
-  - name: RiskofThunder-R2API_Unlockable
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_TempVisualEffect
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_Sound
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_SceneAsset
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_Orb
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_LobbyConfig
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_Loadout
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_Language
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_Items
-    version:
-      major: 1
-      minor: 0
-      patch: 1
-    enabled: true
-  - name: RiskofThunder-R2API_Deployable
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: RiskofThunder-R2API_CommandHelper
-    version:
-      major: 1
-      minor: 0
-      patch: 0
-    enabled: true
-  - name: Fr4nsson-MultiplayerPause
-    version:
-      major: 1
-      minor: 0
-      patch: 2
-    enabled: true
-  - name: TheTimesweeper-SillyItems
-    version:
-      major: 1
-      minor: 2
-      patch: 2
-    enabled: true
-  - name: Rune580-Risk_Of_Options
-    version:
-      major: 2
-      minor: 5
-      patch: 3
-    enabled: true
-  - name: VarnaScelestus-Enhanced_OSP
-    version:
-      major: 1
-      minor: 3
-      patch: 1
-    enabled: true
-  - name: ThinkInvis-TILER2
-    version:
-      major: 7
-      minor: 3
-      patch: 2
-    enabled: true
-  - name: ThinkInvis-ClassicItems
-    version:
-      major: 7
-      minor: 1
-      patch: 0
-    enabled: true
-  - name: RumblingJOSEPH-VoidItemAPI
-    version:
-      major: 1
-      minor: 1
-      patch: 0
-    enabled: true
-  - name: Zenithrium-VanillaVoid
-    version:
-      major: 1
-      minor: 4
-      patch: 2
-    enabled: true
-  - name: Moffein-MobileTurretBuff
-    version:
-      major: 1
-      minor: 1
-      patch: 13
-    enabled: true
-  - name: AceOfShades-QuickRestart
-    version:
-      major: 1
-      minor: 4
-      patch: 2
-    enabled: true
-  - name: viliger-ShrineOfRepair
-    version:
-      major: 1
-      minor: 3
-      patch: 1
-    enabled: true
-  - name: wildbook-TooManyFriends
-    version:
-      major: 1
-      minor: 2
-      patch: 1
-    enabled: true
-  - name: JaceDaDorito-FogboundLagoon
-    version:
-      major: 1
-      minor: 0
-      patch: 8
-    enabled: true
-  - name: William758-ContentDisabler
-    version:
-      major: 1
-      minor: 2
-      patch: 1
-    enabled: true
-  - name: pseudopulse-ChaoticSkills
-    version:
-      major: 1
-      minor: 3
-      patch: 0
     enabled: true
   - name: MagnusMagnuson-ItemExchangeNotifier
     version:
@@ -336,13 +24,211 @@ mods:
       minor: 4
       patch: 1
     enabled: true
-  - name: NotTsunami-ShowDeathCause
+  - name: Moffein-AutoSkipCredits
     version:
-      major: 3
+      major: 1
+      minor: 0
+      patch: 2
+    enabled: true
+  - name: RiskofThunder-HookGenPatcher
+    version:
+      major: 1
+      minor: 2
+      patch: 4
+    enabled: true
+  - name: RiskofThunder-R2API_ArtifactCode
+    version:
+      major: 1
       minor: 0
       patch: 1
     enabled: true
-  - name: Moffein-AutoSkipCredits
+  - name: RiskofThunder-R2API_Colors
+    version:
+      major: 1
+      minor: 0
+      patch: 1
+    enabled: true
+  - name: RiskofThunder-R2API_CommandHelper
+    version:
+      major: 1
+      minor: 0
+      patch: 2
+    enabled: true
+  - name: RiskofThunder-R2API_ContentManagement
+    version:
+      major: 1
+      minor: 0
+      patch: 6
+    enabled: true
+  - name: RiskofThunder-R2API_Core
+    version:
+      major: 5
+      minor: 1
+      patch: 1
+    enabled: true
+  - name: RiskofThunder-R2API_DamageType
+    version:
+      major: 1
+      minor: 1
+      patch: 2
+    enabled: true
+  - name: RiskofThunder-R2API_Deployable
+    version:
+      major: 1
+      minor: 0
+      patch: 1
+    enabled: true
+  - name: RiskofThunder-R2API_Difficulty
+    version:
+      major: 1
+      minor: 1
+      patch: 2
+    enabled: true
+  - name: RiskofThunder-R2API_Director
+    version:
+      major: 2
+      minor: 2
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Dot
+    version:
+      major: 1
+      minor: 0
+      patch: 3
+    enabled: true
+  - name: RiskofThunder-R2API_Elites
+    version:
+      major: 1
+      minor: 0
+      patch: 4
+    enabled: true
+  - name: RiskofThunder-R2API_Items
+    version:
+      major: 1
+      minor: 0
+      patch: 4
+    enabled: true
+  - name: RiskofThunder-R2API_Language
+    version:
+      major: 1
+      minor: 0
+      patch: 1
+    enabled: true
+  - name: RiskofThunder-R2API_Loadout
+    version:
+      major: 1
+      minor: 0
+      patch: 2
+    enabled: true
+  - name: RiskofThunder-R2API_LobbyConfig
+    version:
+      major: 1
+      minor: 0
+      patch: 1
+    enabled: true
+  - name: RiskofThunder-R2API_Networking
+    version:
+      major: 1
+      minor: 0
+      patch: 2
+    enabled: true
+  - name: RiskofThunder-R2API_Orb
+    version:
+      major: 1
+      minor: 0
+      patch: 1
+    enabled: true
+  - name: RiskofThunder-R2API_Prefab
+    version:
+      major: 1
+      minor: 0
+      patch: 4
+    enabled: true
+  - name: RiskofThunder-R2API_RecalculateStats
+    version:
+      major: 1
+      minor: 4
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_SceneAsset
+    version:
+      major: 1
+      minor: 1
+      patch: 2
+    enabled: true
+  - name: RiskofThunder-R2API_Sound
+    version:
+      major: 1
+      minor: 0
+      patch: 3
+    enabled: true
+  - name: RiskofThunder-R2API_TempVisualEffect
+    version:
+      major: 1
+      minor: 0
+      patch: 3
+    enabled: true
+  - name: RiskofThunder-R2API_Unlockable
+    version:
+      major: 1
+      minor: 0
+      patch: 2
+    enabled: true
+  - name: bbepis-BepInExPack
+    version:
+      major: 5
+      minor: 4
+      patch: 2117
+    enabled: true
+  - name: niwith-DropinMultiplayer
+    version:
+      major: 4
+      minor: 0
+      patch: 0
+    enabled: true
+  - name: tristanmcpherson-R2API
+    version:
+      major: 5
+      minor: 0
+      patch: 5
+    enabled: true
+  - name: RiskofThunder-RoR2BepInExPack
+    version:
+      major: 1
+      minor: 24
+      patch: 1
+    enabled: true
+  - name: RiskofThunder-FixPluginTypesSerialization
+    version:
+      major: 1
+      minor: 0
+      patch: 4
+    enabled: true
+  - name: RiskofThunder-BepInEx_GUI
+    version:
+      major: 3
+      minor: 0
+      patch: 3
+    enabled: true
+  - name: RiskofThunder-R2API_Skins
+    version:
+      major: 1
+      minor: 2
+      patch: 0
+    enabled: true
+  - name: RiskofThunder-R2API_Addressables
+    version:
+      major: 1
+      minor: 0
+      patch: 3
+    enabled: true
+  - name: Moffein-TooManyFriends
+    version:
+      major: 1
+      minor: 2
+      patch: 4
+    enabled: true
+  - name: Valter-ReadyUp
     version:
       major: 1
       minor: 0
