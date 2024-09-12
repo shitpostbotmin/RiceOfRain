@@ -34,7 +34,7 @@ jobs:
           unzip $zip_file -d pack
 
       - name: upload .r2z as github artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
             name: build
             path: ${{ env.zip_file }}

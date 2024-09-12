@@ -27,7 +27,7 @@ jobs:
                 echo "# PACK CODE: \`$key\`" >> $GITHUB_STEP_SUMMARY
 
             - name: upload .r2z as github artifact
-              uses: actions/upload-artifact@v2
+              uses: actions/upload-artifact@v4
               with:
                   name: build
                   path: ${{ env.zip_file }}
